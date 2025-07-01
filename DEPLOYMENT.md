@@ -38,6 +38,49 @@ npm run build
 npm run deploy -- --repo=https://github.com/infinity-009/coupondel.git
 ```
 
+### 6. **Current Status & Troubleshooting**
+
+✅ **Local Development**: Working at `http://localhost:8000/`  
+❓ **GitHub Pages**: Not yet visible at `https://infinity-009.github.io/coupondel/`
+
+**Most Likely Issues:**
+
+#### **Issue 1: GitHub Pages Not Enabled**
+1. Go to `https://github.com/infinity-009/coupondel/settings/pages`
+2. You should see the `gh-pages` branch in the dropdown
+3. Select `gh-pages` as the source branch
+4. Click Save and wait 5-10 minutes
+
+#### **Issue 2: Repository is Private**
+- GitHub Pages requires a public repository (for free accounts)
+- Go to Settings → General → Danger Zone → Change visibility
+
+#### **Issue 3: Branch Protection or Permissions**
+- Ensure the `infinity-009` account has admin access to the repository
+- Check if branch protection rules are blocking the deployment
+
+#### **Issue 4: Custom Domain Conflicts**
+- If there's a custom domain set, remove it temporarily
+- Let GitHub Pages use the default `username.github.io/repo` format
+
+### 7. **Quick Verification Steps**
+```bash
+# Check if gh-pages branch exists and has content
+git ls-remote origin gh-pages
+
+# Force re-deploy if needed
+cd frontend
+npm run build
+npm run deploy -- --repo=https://github.com/infinity-009/coupondel.git
+```
+
+### 8. **Alternative: Manual GitHub Pages Setup**
+If automatic deployment isn't working:
+1. Download the `dist` folder contents
+2. Create a new branch called `gh-pages`
+3. Upload the `dist` contents to the root of `gh-pages` branch
+4. Enable Pages in repository settings
+
 ---
 
 **Expected URLs:**
