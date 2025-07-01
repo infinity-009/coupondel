@@ -15,7 +15,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import NotificationsIcon from "@mui/icons-material/Notifications";
 import MenuIcon from "@mui/icons-material/Menu";
-import Logo from "../../Images/logo.png";
+import Logo from "../../Images/Logo.png";
 import { NavLink } from "react-router-dom";
 import activeChange from "../../action/appAction";
 import { useSelector, useDispatch } from "react-redux";
@@ -44,7 +44,7 @@ const Header = () => {
     },
     {
       name: "About Us",
-      url: "coupondel.com",
+      url: "https://infinity-009.github.io/coupondel2/",
     },
     {
       name: "Log in",
@@ -260,7 +260,7 @@ const Header = () => {
           </MenuItem>
           <MenuItem
             component={Link}
-            href="http://www.coupondel.com/"
+            href="https://infinity-009.github.io/coupondel2/"
             onClick={handleClose}
           >
             About

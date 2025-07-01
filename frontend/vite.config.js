@@ -10,6 +10,7 @@ import { splitVendorChunkPlugin } from 'vite'
 
 
 export default defineConfig({
+  base: process.env.NODE_ENV === 'production' ? '/coupondel/' : '/',
   plugins: [
     react(),
 
@@ -24,6 +25,10 @@ export default defineConfig({
   ],
   server: {
     port: 8000
+  },
+  build: {
+    outDir: 'dist',
+    assetsDir: 'assets',
+    sourcemap: false,
   }
-
 })

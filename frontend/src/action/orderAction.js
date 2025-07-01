@@ -1,8 +1,13 @@
 
-const OrderAction = () => {
-  return (
-    <div>OrderAction</div>
-  )
-}
+export const createOrder = (orderData) => {
+  return {
+    type: "CREATE_ORDER",
+    payload: orderData,
+  };
+};
 
-export default OrderAction
+export const getOrders = () => {
+  return {
+    type: "GET_ORDERS",
+  };
+};

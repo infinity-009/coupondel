@@ -1,6 +1,4 @@
-import React from 'react'
-
- const toggleFilter = (activeState) => {
+const toggleFilter = (activeState) => {
   return {
     type:"toggleFilter",
     payload:activeState

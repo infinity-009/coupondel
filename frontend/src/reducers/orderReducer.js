@@ -1,8 +1,13 @@
 
-const OrderReducer = () => {
-  return (
-    <div>OrderReducer</div>
-  )
-}
+const initialState = {
+  orders: [],
+};
 
-export default OrderReducer
+const orderReducer = (state = initialState, action) => {
+  switch (action.type) {
+    default:
+      return state;
+  }
+};
+
+export default orderReducer;

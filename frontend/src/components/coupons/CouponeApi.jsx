@@ -1,5 +1,5 @@
-import Zomato from "../../images/zomato.png"
-import Swiggy from "../../images/swiggy.png"
+import Zomato from "../../Images/Zomato.png"
+import Swiggy from "../../Images/swiggy.png"
 const CouponeApi =[
     {
         id:1,

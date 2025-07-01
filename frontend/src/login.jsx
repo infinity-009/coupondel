@@ -1,7 +1,7 @@
 import { Button, IconButton, InputBase, TextField } from "@mui/material";
 import { Box, Container } from "@mui/system";
 import { useNavigate } from "react-router-dom";
-import Logo from "./Images/logo.png";
+import Logo from "./Images/Logo.png";
 import GoogleIcon from "@mui/icons-material/Google";
 import { Link, NavLink } from "react-router-dom";
 import FacebookRoundedIcon from "@mui/icons-material/FacebookRounded";

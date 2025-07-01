@@ -40,7 +40,7 @@ const FootNav = (props) => {
     },
     {
       name: "About Us",
-      url: "coupondel.com",
+      url: "https://infinity-009.github.io/coupondel2/",
     },
     {
       name: "Log in",

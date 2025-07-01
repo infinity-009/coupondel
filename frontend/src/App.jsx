@@ -6,7 +6,7 @@ import Home from "./components/home/home.jsx";
 import Coupons from "./components/coupons/coupons.jsx";
 import Login from "./login.jsx";
 import Signup from "./signup.jsx";
-import UserAccount from "./components/account/Useraccount.jsx";
+import UserAccount from "./components/account/useraccount.jsx";
 import Refer from "./components/refer/refer.jsx";
 import {
   BrowserRouter as Router,
@@ -39,9 +39,12 @@ const AppLayout2 = () => (
   </>
 );
 const App = () => {
+  // Use basename only in production (GitHub Pages)
+  const basename = import.meta.env.PROD ? '/coupondel' : '';
+  
   return (
     <>
-      <Router>
+      <Router basename={basename}>
         <Routes>
 
           <Route path="/login" element={<Login />} />

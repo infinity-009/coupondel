@@ -53,7 +53,7 @@ const Footer = () => {
             <div className="footer-col">
               <ul>
                 <li>
-                  <a href="http://www.coupondel.com" target="blank">
+                  <a href="https://infinity-009.github.io/coupondel2/" target="blank">
                     about us
                   </a>
                 </li>
