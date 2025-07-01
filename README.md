@@ -4,7 +4,7 @@ A React-based coupon and deals application built with Vite, Material-UI, and Red
 
 ## 🌐 Live Demo
 
-**🚀 App URL:** [https://mallikarjunreddy3015.github.io/coupondel/](https://mallikarjunreddy3015.github.io/coupondel/)
+**🚀 App URL:** [https://infinity-009.github.io/coupondel/](https://infinity-009.github.io/coupondel/)
 
 **🏢 Company Homepage:** [https://infinity-009.github.io/coupondel2/](https://infinity-009.github.io/coupondel2/)
 
@@ -56,7 +56,7 @@ This will:
 5. Set folder to `/ (root)`
 6. Save
 
-Your app will be available at: `https://mallikarjunreddy3015.github.io/coupondel/`
+Your app will be available at: `https://infinity-009.github.io/coupondel/`
 
 ## 🔧 Configuration
 

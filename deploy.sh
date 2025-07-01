@@ -22,7 +22,7 @@ npm run deploy
 echo "✅ Deployment complete!"
 echo ""
 echo "🌐 Your app is now live at:"
-echo "   https://mallikarjunreddy3015.github.io/coupondel/"
+echo "   https://infinity-009.github.io/coupondel/"
 echo ""
 echo "🏢 Company Homepage:"
 echo "   https://infinity-009.github.io/coupondel2/"
